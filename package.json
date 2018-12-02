@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "Convert HTML to Imba tags",
   "scripts": {
-    "build": "parcel build src/index.html",
+    "build": "parcel build --public-url '.' src/index.html",
     "start": "parcel src/index.html",
     "_clean-source": "rimraf src README.md",
     "deploy": "gh-pages-deploy",
