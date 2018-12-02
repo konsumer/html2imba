@@ -1,9 +1,6 @@
-# imba-demo
+# html2imba
 
-This is a quick starter with parcel & imba.
+It's available [here](http://konsumer.js.org/html2imba/).
 
-```sh
-npm i         # install dependencies
-npm run build # build static website in dist/
-npm start     # start dev-server with hot-reloading
-```
+Simple tool to convert HTML to [imba](http://imba.io). Handy for CSS-framework demos and such.
+
