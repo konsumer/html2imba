@@ -1,0 +1,23 @@
+{
+  "name": "imba-demo",
+  "version": "0.0.0",
+  "description": "Convert HTML to Imba tags",
+  "scripts": {
+    "build": "parcel build src/index.html",
+    "start": "parcel src/index.html"
+  },
+  "keywords": [
+    "imba",
+    "html"
+  ],
+  "author": "David Konsumer <konsumer@jetboystudio.com> (http://konsumer.js.org)",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.10.3",
+    "parcel-plugin-imba": "github:konsumer/parcel-plugin-imba"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "htmlparser2": "^3.10.0"
+  }
+}
