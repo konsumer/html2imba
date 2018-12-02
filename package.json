@@ -6,7 +6,8 @@
     "build": "parcel build src/index.html",
     "start": "parcel src/index.html",
     "_clean-source": "rimraf src README.md",
-    "deploy": "gh-pages-deploy"
+    "deploy": "gh-pages-deploy",
+    "predeploy": "npm run build"
   },
   "keywords": [
     "imba",
@@ -15,7 +16,7 @@
   "author": "David Konsumer <konsumer@jetboystudio.com> (http://konsumer.js.org)",
   "license": "MIT",
   "devDependencies": {
-    "gh-pages-deploy": "^0.5.0",
+    "gh-pages-deploy": "^0.4.2",
     "parcel-bundler": "^1.10.3",
     "parcel-plugin-imba": "github:konsumer/parcel-plugin-imba",
     "rimraf": "^2.6.2"
