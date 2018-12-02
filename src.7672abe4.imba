@@ -1,6 +1,3 @@
-import 'babel-polyfill'
-
-import './index.css'
 import { App } from './tags/App'
 
 Imba.mount <App>
